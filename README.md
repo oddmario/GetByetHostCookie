@@ -31,3 +31,6 @@ Now you can do any request to http://example.com and add the cookie that we got 
 
 # VERY IMPORTANT!
 * The `__test` cookie differs from a device to another and changes by the time, so you've to get the cookie on every request you're doing to a ByetHost website.
+
+# Examples
+You can find examples of integrations of this project [here](https://github.com/mariolatiffathy/GetByetHostCookie/tree/master/Examples).
