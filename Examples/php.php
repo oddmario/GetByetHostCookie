@@ -15,7 +15,7 @@ $opts = array('http' =>
 );
 $context  = stream_context_create($opts);
 
-$r_GetCookie_2 = file_get_contents('https://edgy.faked.to/getbyethostcookie.php', false, $context); // This is the cookie! (__test=X, where X is the cookie.)
+$r_GetCookie_2 = file_get_contents('https://getbyethostcookie.glitch.me/', false, $context); // This is the cookie! (__test=X, where X is the cookie.)
 $__test_cookie = substr($r_GetCookie_2, strpos($r_GetCookie_2, "=") + 1); // Get the text after `=` sign (which is the __test cookie value)
 
 $opts2 = array(
