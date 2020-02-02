@@ -1,0 +1,17 @@
+{
+  "name": "getbyethostcookie",
+  "version": "1.0",
+  "description": "Gets the __test cookie for a ByetHost site.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "body-parser": "^1.18.3",
+    "jsdom": "^13.2.0"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
